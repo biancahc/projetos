@@ -1,0 +1,64 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="#EDEDED"/>
+<g id="school-better" clip-path="url(#clip0_2415_26437)">
+<rect width="1440" height="6573" transform="translate(-256 -722)" fill="white"/>
+<g id="Header .1" clip-path="url(#clip1_2415_26437)">
+<rect width="1440" height="1037" transform="translate(-256 -722)" fill="#26335D"/>
+<g id="background" clip-path="url(#clip2_2415_26437)">
+<g id="hero-8-bg-shape-cover-dark" clip-path="url(#clip3_2415_26437)">
+<g id="hero-shape-dark-5">
+<path id="hero shape 8" d="M-256 -722H529L335.348 -108.846C324.879 -75.699 297.949 -50.3667 264.225 -41.9429L-256 88V-722Z" fill="#FF7B52"/>
+</g>
+</g>
+</g>
+<g id="container">
+<g id="row">
+<g id="col-md-4">
+<g id="card" filter="url(#filter0_d_2415_26437)">
+<rect width="328" height="292" transform="translate(-59 -57)" fill="white"/>
+<g id="fixed-width sec-">
+<path d="M-19 -12C-19 -17.5228 -14.5228 -22 -9 -22H41C46.5229 -22 51 -17.5228 51 -12V44C51 49.5229 46.5229 54 41 54H-9C-14.5228 54 -19 49.5229 -19 44V-12Z" fill="#E74040"/>
+<g id="icon cool-icon-n2" clip-path="url(#clip4_2415_26437)">
+<g id="012-blackboards" clip-path="url(#clip5_2415_26437)">
+<path id="Vector" d="M1.71436 19.9999C1.71436 20.3155 1.97021 20.5714 2.28578 20.5714H29.7144C30.0299 20.5714 30.2858 20.3155 30.2858 19.9999V2.28564H1.71436V19.9999Z" fill="white"/>
+<path id="Vector_2" d="M31.4286 0H0.571429C0.255859 0 0 0.255859 0 0.571429C0 0.886998 0.255859 1.14286 0.571429 1.14286H31.4286C31.7441 1.14286 32 0.886998 32 0.571429C32 0.255859 31.7441 0 31.4286 0Z" fill="white"/>
+<path id="Vector_3" d="M20.5715 29.7144H16.5715V22.8572H17.1429C17.4585 22.8572 17.7144 22.6014 17.7144 22.2858V21.7144H14.2858V22.2858C14.2858 22.6014 14.5416 22.8572 14.8572 22.8572H15.4286V29.7144H11.4286C10.4819 29.7144 9.71436 30.4819 9.71436 31.4286V32.0001H22.2858V31.4286C22.2858 30.4819 21.5182 29.7144 20.5715 29.7144Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_2415_26437" x="-78" y="-63" width="366" height="330" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="13"/>
+<feGaussianBlur stdDeviation="9.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2415_26437"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2415_26437" result="shape"/>
+</filter>
+<clipPath id="clip0_2415_26437">
+<rect width="1440" height="6573" fill="white" transform="translate(-256 -722)"/>
+</clipPath>
+<clipPath id="clip1_2415_26437">
+<rect width="1440" height="1037" fill="white" transform="translate(-256 -722)"/>
+</clipPath>
+<clipPath id="clip2_2415_26437">
+<rect width="1440" height="843" fill="white" transform="translate(-256 -722)"/>
+</clipPath>
+<clipPath id="clip3_2415_26437">
+<rect width="1440" height="839" fill="white" transform="translate(-256 -722)"/>
+</clipPath>
+<clipPath id="clip4_2415_26437">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+<clipPath id="clip5_2415_26437">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

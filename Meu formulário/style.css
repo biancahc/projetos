@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #EFEFEF;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 368px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background:#535971;
+}
+
+.page {
+ width: 750px;
+ margin: auto;
+}
+
+header {
+  margin-top: 140px;
+}
+
+header h1 {
+  color: #FFF;
+
+  font-family: Staatliches;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+} 
+
+h2 {
+  color: #535971;
+
+  font-family: Staatliches;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px
+}
+
+header p {
+  color: #FFF;
+
+  font-family: Poppins;
+  font-size: 20px;
+
+  width: 417px;
+  line-height: 26px;
+}
+
+form {
+  border-radius: 20px 20px 0px 0px;
+  background: #FFF;
+
+  margin-top: 58px;
+
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+.input-hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-hero input, 
+.fieldset-hero input {
+  height: 56px;
+  padding: 24px;
+
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background:  #FAFAFC;
+
+  margin-bottom: 16px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.input-hero label span {
+  color: #C1BCCC;
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+  margin-left: 8px;
+}
+
+.input-hero label,
+.fieldset-hero label {
+  font-family: Poppins;
+  color: #4E4958;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin-bottom: 8px;
+
+}
+
+.fieldset-hero legend {
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+fieldset legend {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  color: #535971;
+
+  margin-bottom: 36px;
+}
+
+footer {
+  background: #535971;
+
+  height: px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 71px 53px;
+
+  margin-bottom: 100px;
+
+  border-top: 1px solid #D6D6D6;
+
+  border-radius: 0px 0px 20px 20px;
+}
+
+footer .button {
+  background: #FF5374;
+  
+  border-radius: 20px;
+  display: flex;
+  width: 608px;
+  height: 55.652px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border: none;
+
+  color: #FFF;
+
+  font-family: Staatliches;
+}
+
+.col-2, .col-3 {
+  display: flex;
+  gap: 20px;
+}
+
+.col-2 > div {
+  width: 50%;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 100%;
+}
+
+input:invalid {
+  border: 2px solid #FF1010;
+}
+

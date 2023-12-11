@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #26335D;
+ background-image: url(./assets/menina.png);
+ background-repeat: no-repeat;
+ background-size: 100% auto;
+
+ padding: 0 197px ;
+
+ font-family: 'Montserrat', sans-serif; 
+ color: #FFF;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 91px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  gap: 21px;
+
+  margin-left: 83px;
+}
+
+ul li {
+  list-style: none; 
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; 
+}
+
+.hero h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.hero h1 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;  
+  
+  width: 542px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  padding: 80px 0;
+}
+
+.hero h4 {
+  width: 396px;
+}
+
+.btn {
+  padding: 15px 25px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: transparent;
+
+  color: #FFF;
+}
+
+.btn-primary {
+  background: #8D5CF6;
+  border: none;
+  
+}
+
+.btn-secondary {
+  border: 1px solid #ECECEC;
+  
+}
+
+.btn-padding {
+  padding: 15px 40px;
+}
+
+.corse
+
+
+
