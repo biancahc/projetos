@@ -244,7 +244,9 @@ a {
 }
 
 .product-details h2,
-.courses-text h2 {
+.courses-text h2,
+.Pricing-header h6,
+.header h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -252,7 +254,9 @@ a {
 
 .product-details p,
 .courses-text p,
-.courses-card p {
+.courses-card p,
+.Pricing-header p,
+.header p {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -274,11 +278,20 @@ a {
 
 
 .courses-text h6,
-.row a {
+.row a,
+.Pricing-header h6,
+.header h6,
+.Newsletter h6{
+
   color: #8D5CF6;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
+}
+
+.courses-details a:hover {
+  background:  #8D5CF6;
+  color: #FFF;
 }
 
 .courses-details h6 {
@@ -301,7 +314,7 @@ a {
 .row-start {
   display: flex;
   align-items: flex-start;
-  gap: 5px ;
+  gap: 5px;
 }
 
 .rate {
@@ -349,14 +362,14 @@ a {
 }
 
 .h5-gray {
-  color:#BDBDBD;
+  color: #BDBDBD;
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
 .h5-red {
-  color:  #FF7B52;
+  color: #FF7B52;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -418,13 +431,331 @@ a {
 }
 
 
-.courses-details > a {
+.courses-details>a {
   display: flex;
   width: 160px;
   padding: 10px 20px;
   align-items: center;
   gap: 10px;
   border-radius: 37px;
-  border: 1px solid  #8D5CF6;
+  border: 1px solid
 }
+
+.Pricing-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Pricing-header p {
+  width: 469px;
+
+  padding-bottom: 80px;
+}
+
+.cards-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  background-color: #fff;
+  color: #737373;
+}
+
+#per-month {
+  color: #8EC2F2;
+}
+
+.content-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  padding: 8px;
+}
+
+.img-bg {
+  border-radius: 200px;
+  background: #8D5CF6;
+}
+
+.img-bg img {
+  width: 96px;
+  height: 96px;
+  padding: 24px 23.5px 24px 24.5px;
+}
+
+.card-price-secondary {
+  background-color: #6223eb;
+}
+
+.card-price-secondary .img-bg {
+  border-radius: 200px;
+  background: #fff
+}
+
+.card-price button {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+
+  border: none;
+  display: flex;
+  padding: 15px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #8D5CF6;
+}
+
+.card-price-secondary button {
+  background-color: #2DC071;
+}
+
+.card-price {
+  display: flex;
+  padding: 50px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+
+
+  background-color: #FFF;
+}
+
+.card-price-secondary {
+  background-color: #6223eb;
+}
+
+.card-price h3 {
+  color: #252B42;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.card-price-secondary h3 {
+  color: #FFF;
+}
+
+.card-price > h6:first-of-type {
+  width: 142px;
+  text-align: center;
+}
+
+.card-price h6 {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+
+.card-price-secondary h6,
+#price-one,
+#other-price {
+  color: #fff;
+}
+
+.check-cards h6 {
+  color: #FFF;
+}
+
+.check-cards .white h6{
+  color: #FFF;
+}
+
+.card-price h2 {
+  color: #8D5CF6;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.card-price p,
+.conteiner-card p {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+  width: 204px;
+}
+
+.check-cards img {
+  width: 32px;
+  height: 32px;
+  padding: 10px 8px 11px 8px;
+  border-radius: 200px;
+  background: #2DC071;
+}
+
+.check-cards h6 {
+  color: #252B42;
+  
+} 
+
+.check-cards div {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.check-cards {
+  width: 243px;
+}
+
+.check-cards .check-gray img h6 {
+  background-color: #6223eb;
+}
+
+.check-cards div .gray-color {
+  background-color: #BDBDBD;
+}
+
+.card-price button:hover,
+.email-actions button:hover {
+  background-color: #5b18ec; 
+  cursor: pointer;
+}
+
+.card-price-secondary button:hover{
+  background-color: #14db71;
+  cursor: pointer;
+}
+
+#Testimonials {
+  margin: 160px 0 160px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 80px;
+}
+
+.header p {
+  width:469px ;
+}
+
+.conteiner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+}
+.mean img {
+  width: 128px;
+  height: 128px;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .conteiner-one {
+  background-color: #FFF;
+  display: flex;
+  padding: 25px 25px 0px 25px;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .conteiner-card {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+ }
+
+ .conteiner-card p {
+  display: flex;
+  text-align: center;
+
+  width: 320px;
+ }
+
+ .conteiner-card h5 {
+  color:#252B42;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; 
+ }
+
+ .conteiner-card h6 {
+  color: #737373;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; 
+ }
+
+ .contact-form {
+  display: flex;
+  padding: 160px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+ }
+
+ .Newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ }
+
+ .Newsletter p {
+  display: flex;
+  text-align: center;
+  width: 469px;
+ }
+
+ .email-actions {
+  border-radius: 5px;
+  border: 1px solid #E6E6E6;
+
+  background: #F9F9F9;
+  width: 100%;
+  display: flex;
+ }
+
+ .email-actions input {
+  flex: 1;
+  height: 58px;
+  padding: 15px 20px;
+  border: 0;
+ }
+
+ .email-actions input:focus {
+  outline: 0;
+ }
+
+ .email-actions button {
+  height: 58px;
+  padding: 0 15px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #E6E6E6;
+
+  background: #8D5CF6;
+
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+ }
+
+
+
+
+
+
 
