@@ -10,10 +10,13 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
 
-  padding: 0 197px;
-  padding-bottom: 100px;
   font-family: 'Montserrat', sans-serif;
   color: #FFF;
+}
+
+main, header, footer{
+  padding: 0 197px;
+
 }
 
 nav {
@@ -52,7 +55,8 @@ a {
   color: #FFF;
 }
 
-.hero h5 {
+.hero h5,
+.end-actions h5 {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -256,7 +260,8 @@ a {
 .courses-text p,
 .courses-card p,
 .Pricing-header p,
-.header p {
+.header p,
+.end-actions a, h6{
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -266,8 +271,6 @@ a {
   width: 469px;
 }
 
-
-
 .courses-card p {
   color: #737373;
 }
@@ -275,7 +278,6 @@ a {
 .product-details p {
   width: 351px;
 }
-
 
 .courses-text h6,
 .row a,
@@ -290,7 +292,7 @@ a {
 }
 
 .courses-details a:hover {
-  background:  #8D5CF6;
+  background: #8D5CF6;
   color: #FFF;
 }
 
@@ -690,7 +692,8 @@ a {
   line-height: 24px; 
  }
 
- .conteiner-card h6 {
+ .conteiner-card h6,
+ footer h6 {
   color: #737373;
   text-align: center;
   font-size: 14px;
@@ -752,6 +755,54 @@ a {
   font-weight: 400;
   line-height: 28px;
  }
+
+ .end{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 2fr;
+  gap: 30px;
+
+  padding: 50px 0px
+ }
+
+ .end-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px
+ }
+
+ .end-actions div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+ footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 74px;
+   background: #FAFAFA;
+  }
+
+ footer div a+a {
+  margin-left: 20px;
+ }
+
+ .voltar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+ .voltar a {
+  color:#8D5CF6;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; 
+ }
+
 
 
 
